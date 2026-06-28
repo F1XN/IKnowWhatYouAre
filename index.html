@@ -76,10 +76,23 @@ button:hover{
 
     <p>Todo esto fue creado desde mi Samsung A32 usando Termux y GitHub.</p>
 
-    <button onclick="alert('¡Hola! Si estás viendo esto, el botón funciona 😄')">
-    ¡Este es mi primer botón!</button>
+    <button onclick="cambiarMensaje()">
+    ¡Este es mi primer botón!
+</button>
 
 </div>
+
+<script>
+
+function cambiarMensaje(){
+
+    document.querySelector("h1").innerText = "💙 Nunca dejes de aprender.";
+
+    document.querySelector("p").innerText = "¡Acabas de ejecutar tu primer JavaScript!";
+
+}
+
+</script>
 
 </body>
 
