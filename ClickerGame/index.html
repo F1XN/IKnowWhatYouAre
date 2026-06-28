@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clicker Game</title>
+</head>
+
+<body>
+
+<h1>Clicker Game</h1>
+
+<p>Clics: 0</p>
+
+<button onclick="sumarClic()">
+    ¡Haz clic!
+</button>
+
+<script>
+function sumarClic(){
+
+clics++;
+
+document.querySelector("p").innerText = "Clics: " + clics;
+
+}
+let clics = 0;
+
+</script>
+
+</body>
+
+</html>
